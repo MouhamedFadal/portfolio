@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0 2%;
+    padding: 0;
+    background-color: #ddd;
+  
+
+}
+.profile{
+    display: flex;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top:0;
+    background-color: #ddd;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    
+
+
+}
+nav.profile{
+    display:flex;
+    align-items:center;
+}
+.profile {
+    display: flex;
+    
+    
+}
+nav .profile img{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    padding-right: 10px;
+
+    }
+    nav .profile  h1{
+    
+    font-size: 15px;
+    }
+   nav ul{
+       display: flex;
+       list-style-type: none;
+       text-transform: uppercase;
+   }
+   nav li{
+       margin: 25px;
+       cursor: pointer;
+   }
+   .page-content{
+       margin:4%;
+
+   }
+   .page-content header{
+       margin: 5%;
+       max-width: 80%;
+
+   }
+   .page-content .presentation-image{
+          margin-top: 5%
+   }
+   .images{
+      display: flex;
+       animation-duration: 10s;
+       animation-name: mesImages;
+       animation-iteration-count: infinite;
+       position:relative;
+
+   }
+   .page-content .ordinateur .images img:hover{
+       filter: brightness(50%);
+   }
+   .ordinateur{
+       width: 640px;
+       overflow: auto;
+       border: 2px solid #333;
+
+   }
+   @keyframes mesImages {
+       0% {
+           transform: translateX(0);
+       }
+       25%{
+           transform: translateX(-640px);
+       }
+       50%{
+           transform: translateX(-1280);
+       }
+       75%{
+           transform: translateX(1920);
+       }
+       
+       100%{
+           transform: translateX(0); 
+       
+       
+    }
+
+}
+.mes-projets .projets {
+    padding: 10px;
+    color: rgb(120, 54, 78);
+}
+ .projets h2{
+  font-size: 50px;
+   text-align: center;
+
+}
+.mes-projets .projets h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.projets-section .projets-réalisés{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.projets-section .projets-réalisés h4{
+    font-size: 20px;
+
+}
+.projets-section h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.contacactez-moi{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    color: #ddd;
+    font-size: 17px;
+}
+.contact-us .join{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+.contact{
+    padding: 5px;
+}
+       
+        
+      
+       
+   
+  
+
+  
+
+   
+   
+   
+   
